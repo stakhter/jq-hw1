@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jquery hw-1</title>
+    <!-- jq-ui-css -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <!-- alert -->
+    <div class="container">
+      <h1>Click the button to show alert</h1>
+      <button type="button" id="btn1" class="btn btn-dark">Show alert</button>
+    </div>
+    <!-- hide/show -->
+    <div class="container">
+      <h1>Click the button to hide the text</h1>
+      <button type="button" id="btnh" class="btn btn-dark">Hide</button>
+      <button type="button" id="btns" class="btn btn-danger">Show</button>
+      <button type="button" id="btnt" class="btn btn-warning">Toggle</button>
+      <h2 id="hs">Lorem ipsum dolor sit amet</h2>
+    </div>
+    <!-- fadeout/fadein -->
+    <div class="container">
+      <h1>Click the button to hide the text</h1>
+      <button type="button" id="btnfo" class="btn btn-dark">FadeOut</button>
+      <button type="button" id="btnfi" class="btn btn-danger">FadeIn</button>
+      <button type="button" id="btntg" class="btn btn-warning">FadeToggle</button>
+      <h2 id="hf">Lorem ipsum dolor sit amet</h2>
+    </div>
+    <!-- fade-fast/slow -->
+    <div class="container">
+      <h1>Click the button to hide the text</h1>
+      <button type="button" id="btnff" class="btn btn-dark">FadeOut</button>
+      <button type="button" id="btnfs" class="btn btn-danger">FadeIn</button>
+      <h2 id="hfs">Lorem ipsum dolor sit amet</h2>
+    </div>
+    <!-- fadetoggle/mili second -->
+    <div class="container">
+      <h1>Click the button to hide the text</h1>
+      <button type="button" id="btntgg" class="btn btn-warning">FadeToggle</button>
+      <h2 id="hfts">Lorem ipsum dolor sit amet</h2>
+    </div>
+    <!-- dbl -->
+    <div class="container">
+      <h1>Click the button to hide the text</h1>
+      <button type="button" id="btndb" class="btn btn-warning">FadeToggle</button>
+      <h2 id="hdb">Lorem ipsum dolor sit amet</h2>
+    </div>
+    <!-- slide -->
+    <div class="container">
+      <!-- ques -->
+      <div class="ques">
+        <h2 class="mb-0">Lorem ipsum dolor sit amet?</h2>
+      </div>
+      <!-- ans -->
+      <div class="ans">
+        <p class="mb-0">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+      </div>
+    </div>
+    <!-- draggable -->
+    <div class="container my-2">
+      <div id="draggable" class="ui-widget-content">
+        <p>Drag me around</p>
+      </div>
+    </div>
+    <!-- accordion -->
+    <div class="container my-4">
+      <div id="accordion">
+        <!-- item1 -->
+        <h3>Section 1</h3>
+        <div>
+        <p>
+          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+        </p>
+        </div>
+        <!-- item2 -->
+          <h3>Section 2</h3>
+          <div>
+            <p>
+            Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+            purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+            velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+            suscipit faucibus urna.
+            </p>
+          </div>
+          <!-- item3 -->
+          <h3>Section 3</h3>
+          <div>
+          <p>
+          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+          </p>
+          <ul>
+            <li>List item one</li>
+            <li>List item two</li>
+            <li>List item three</li>
+          </ul>
+        </div>
+        <!-- item end -->
+      </div>
+    </div>
+    <!-- sortable -->
+    <div class="container my-4">
+      <ul id="sortable">
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+      </ul>
+    </div>
+    <!-- Widget Buttons -->
+    <div class="container my-4">
+      <div class="widget">
+        <h2>Widget Buttons</h2>
+          <button type="button" class="ui-button ui-corner-all ui-widget">A button element</button>
+          <input type="submit" class="ui-button ui-corner-all ui-widget" value="A submit button">
+          <a href="#" class="ui-button ui-corner-all ui-widget" role="button">An anchor</a>
+      </div>
+    </div>
+    <!-- Widget Buttons with icon -->
+    <div class="container my-4">
+      <div class="widget_icon">
+        <h1>Widget</h1>
+        <button class="ui-button ui-corner-all ui-widget">Button with only text</button>
+        <button class="ui-button ui-corner-all ui-widget ui-button-icon-only"><span class="ui-icon ui-icon-gear"></span>Button with icon only</button>
+        <button class="ui-button ui-corner-all ui-widget"><span class="ui-icon ui-icon-gear"></span>Button with icon on the left</button>
+        <button class="ui-button ui-corner-all ui-widget"><span class="ui-icon ui-icon-gear"></span>Button with icon on the right</button>
+        <button class="ui-button ui-corner-all ui-widget"><span class="ui-icon ui-icon-gear"></span>Button with icon on the top</button>
+        <button class="ui-button ui-corner-all ui-widget"><span class="ui-icon ui-icon-gear"></span>Button with icon on the bottom</button>
+      </div>
+    </div>
+    <!-- this -->
+    <div class="container my-4">
+      
+    </div>
+
+    <!-- js link -->
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <!-- jq-ui -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
